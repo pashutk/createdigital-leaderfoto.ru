@@ -92,6 +92,44 @@ cursor: pointer;
 .posa{
 	position: absolute;
 }
+.overMap{
+	position: relative;
+	margin-top: -650px;
 
+}
+.overMapInfo{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fff;
+	-moz-box-shadow: 0 1px 4px rgba(1,1,1,.4);
+	-webkit-box-shadow: 0 1px 4px rgba(1,1,1,.4);
+	box-shadow: 0 1px 4px rgba(1,1,1,.4);
+	height: 555px;
+	margin-top: 35px;
+	padding: 30px;
+	width: 303px;
+	margin-left: -391.66667px;
+	position: absolute;
+	left: 50%;
+}
+.overMap h3{
+	font-size: 14px;
+	margin: 0px 0 20px;
+	text-transform: uppercase;
+}
+.overMap hr{
+	margin: 30px auto;
+	width: 168px;
+height: 3px;
+background-color: #e8e5e5;
+
+}
+.overMap p{
+	margin-bottom: 5px;
+}
 
 
