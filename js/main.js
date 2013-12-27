@@ -48,3 +48,40 @@ function changeCity(){
 		setMsk();
 	};
 };
+
+$(document).ready(function(){
+	$(".checkie").mousedown(
+		function() {
+			changeCheck($(this));
+	});
+	$(".checkie").each(
+		function() {
+		changeCheckStart($(this));
+	});
+	$('.selector').click(function(){
+		$('.dropdown').toggle();
+	});
+});
+
+function changeCheck(el) {
+    var el = el,
+        input = el.find("input").eq(0);
+   	if(!input.attr("checked")) {
+		el.css("background-position","0 -70px");	
+		input.attr("checked", true)
+	} else {
+		el.css("background-position","0 0");	
+		input.attr("checked", false)
+	}
+    return true;
+}
+
+function changeCheckStart(el){
+	var el = el,
+		input = el.find("input").eq(0);
+      if(input.attr("checked")) {
+		el.css("background-position","0 -70px");	
+		}
+     return true;
+}
+

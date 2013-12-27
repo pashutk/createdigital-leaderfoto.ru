@@ -131,5 +131,157 @@ background-color: #e8e5e5;
 .overMap p{
 	margin-bottom: 5px;
 }
+.overMap a{
+	text-decoration: underline;
+}
+.formDiv{
+	margin-top: -115px;
+border: 3px solid yellow;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: white;
+position: relative;
+}
+.formDiv label{
+	font-weight: normal;
+	width: 100%;
+	margin-bottom: 0;
+	padding-top: 5px;
+}
+.formDiv input[type="text"],
+.formDiv textarea{
+	width: 100%;
+	-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background-color: #fff;
+-moz-box-shadow: inset 0 1px 3px rgba(1,1,1,.52);
+-webkit-box-shadow: inset 0 1px 3px rgba(1,1,1,.52);
+box-shadow: inset 0 1px 3px rgba(1,1,1,.52);
+border: 1px;
+height: 31px;
+resize:none;
+padding: 0 10px;
+}
+.formDiv input#contact{
+	width: 250px;
+	float: left;
+}
+.formDiv textarea{
+	height: 140px;
+	padding: 10px 10px;
+}
+.formDiv .line{
+	height: 40px;
+	margin-bottom: 15px;
+}
+.formDiv .lineB{
+	height: 140px;
+	margin-bottom: 15px;
+}
+.formDiv .captchaDiv{
+	width: 45%;
+	float: left;
+	margin-right: 3%;
+}
+.formDiv .captchaDiv img{
+	max-width: 100%
+}
+.bottomDiv {
+	border-top: 3px;
+	border-top-style: solid;
+	border-top-color: yellow;
+	margin-top: 10px;
+}
+.bottomDiv button{
+	color: #fff;
+	text-transform: uppercase;
+	width: 231px;
+	left: 50%;
+	position: relative;
+	margin: 30px 0 -15px -115px;
+	height: 47px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #29292b;
+	-moz-box-shadow: 0 2px 0 #0b4da1;
+	-webkit-box-shadow: 0 2px 0 #0b4da1;
+	box-shadow: 0 2px 0 #0b4da1;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…AiIHdpZHRoPSIyMzEiIGhlaWdodD0iNDciIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+	background-image: -moz-linear-gradient(bottom, #165ebd 0%, #3583e9 100%);
+	background-image: -o-linear-gradient(bottom, #165ebd 0%, #3583e9 100%);
+	background-image: -webkit-linear-gradient(bottom, #165ebd 0%, #3583e9 100%);
+	background-image: linear-gradient(bottom, #165ebd 0%, #3583e9 100%);
+	font-weight: bold;
+	border: 1px;
+}
+.bottomDiv button img{
+	margin-right: 10px;
+}
+.checkie {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/sprite.png);
+	margin-right: 6px;
+	margin-bottom: -5px;
+}
+.checkie input {
+	display: none;
+}
+/*.sprite-chck{ background-position: 0 0; width: 20px; height: 20px; } 
+.sprite-chck-{ background-position: 0 -70px; width: 20px; height: 20px; } 
+#container li {
+    background: url(csg-52bd78b8a33f1.png) no-repeat top left;
+}*/
+.selector{
+	height: 31px;
+	width: 31px;
+	float: left;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #29292b;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDMzIDMxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImhhdDAiIGdyYWRpZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB4MT0iNTAlIiB5MT0iMTAwJSIgeDI9IjUwJSIgeTI9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNjZGRiZTciIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmY3ZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjMzIiBoZWlnaHQ9IjMxIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+	background-image: -moz-linear-gradient(bottom, #cddbe7 0%, #f2f7fc 100%);
+	background-image: -o-linear-gradient(bottom, #cddbe7 0%, #f2f7fc 100%);
+	background-image: -webkit-linear-gradient(bottom, #cddbe7 0%, #f2f7fc 100%);
+	background-image: linear-gradient(bottom, #cddbe7 0%, #f2f7fc 100%);
 
-
+}
+.arrows{
+	background-image: url(../img/arrows.png);
+	width: 7px;
+	height: 15px;
+	margin: 7px 12px;
+}
+.dropdown{
+	width: 281px;
+	position: absolute;
+	left: 0;
+	top: 32px;
+	height: 120px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	display: none;
+}
+.formDiv h2{
+	position: absolute;
+	color: #fff;
+	top: -100px;
+	width: 500px;
+	text-align: center;
+	left: 50%;
+	margin-left: -250px;
+}

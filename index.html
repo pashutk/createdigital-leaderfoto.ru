@@ -82,9 +82,57 @@
 
     </section>
     <section class="container-fluid">
-        <div class="formPic">
-            
+        <div class="formPic"></div>
+        <div class="container formDiv">
+            <h2>&#8211 Форма обратной связи &#8211</h2>
+            <form action="">
+                <div class="row">
+                    <div class="col-lg-3 col-lg-offset-1" style="padding: 0;">
+                        <p>Если у Вас есть вопросы, предложения или жалобы, связанные с работой магазинов и сотрудников сети "Яркий”, Вы можете заполнить форму или обратиться к нам по электронной почте на адрес <a href="mailto:ym@ym.spb.ru">ym@ym.spb.ru</a>.</p>
+                        <p>Все Ваши письма будут рассмотрены руководством компании в кратчайшие сроки.</p>
+                        <p>Мы ценим Ваше мнение и работаем для того, чтобы Вам было удобно.</p>
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-2" style="padding: 0;">
+                        <label for="name" class="line">Имя и фамилия</label>
+                        <label for="contact" class="line">Контактное лицо</label>
+                        <label for="" class="line">Способ связи</label>
+                        <label for="email" class="line">Электронная почта</label>
+                        <label for="phone" class="line">Телефон</label>
+                        <label for="message" class="lineB">Сообщение</label>
+                        <label for="captcha" class="line">Введите то, что видите на картинке</label>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="line"><input type="text" id="name"></div>
+                        <div class="line" style="position:relative;">
+                            <input type="text" id="contact">
+                            <div class="selector">
+                                <div class="arrows"></div>
+                            </div>
+                            <div class="dropdown"></div>
+                        </div>
+                        <div class="line">
+                            <label style="width:40%;"><span class="checkie"><input type="checkbox" class="chekie"></span>По почте</label>
+                            <label style="width:40%;"><span class="checkie"><input type="checkbox" class="chekie"></span>По телефону</label>
+                        </div>
+                        <div class="line"><input type="text" id="email"></div>
+                        <div class="line"><input type="text" id="phone"></div>
+                        <div class="lineB">
+                            <textarea name="" id="message" cols="30" height="40"></textarea>
+                        </div>
+                        <div class="line">
+                            <div class="captchaDiv">
+                                <img src="http://promo.org.il/sites/default/files/pictures/useful/captcha-wiki.jpg" alt="">
+                            </div>
+                            <input type="text" id="captcha" style="width: 52%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="row bottomDiv">
+                    <button><img src="img/mail.png" alt="">Отправить</button>
+                </div>
+            </form>
         </div>
+
     </section>
     <div class="container"></div>
       <footer>
